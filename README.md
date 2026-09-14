@@ -2,7 +2,7 @@
 
 A compact **C++17 + OpenCV** project that demonstrates a complete classical computer-vision pipeline for real-time video analysis.
 
-The project intentionally combines several algorithmic stages instead of relying on a neural network alone: preprocessing, segmentation, geometric measurement, motion estimation, temporal filtering, and runtime profiling.
+The project combines: preprocessing, segmentation, geometric measurement, motion estimation, temporal filtering, and runtime profiling.
 
 ## Features
 
@@ -162,7 +162,7 @@ cpp-opencv-realtime-vision/
 
 ## Engineering choices
 
-This project is intentionally kept small and readable. The objective is to make each stage easy to inspect and modify before moving toward more optimized embedded implementations.
+The objective is to make each stage easy to inspect and modify before moving toward more optimized embedded implementations.
 
 The runtime measurements also provide a baseline for later optimization work. For this pipeline, dense optical flow is expected to be considerably more computationally expensive than simple thresholding and contour analysis, which makes it a natural target for optimization experiments.
 
@@ -179,15 +179,3 @@ The runtime measurements also provide a baseline for later optimization work. Fo
 - Investigate OpenCV optimization options, SIMD, or GPU acceleration
 - Test on an embedded Linux target
 
-## Skills demonstrated
-
-- C++17
-- OpenCV
-- Real-time image processing
-- Image segmentation
-- Contour and geometry analysis
-- Optical flow and motion analysis
-- Temporal filtering
-- Performance profiling
-- CMake
-- Basic software organization for computer-vision applications
