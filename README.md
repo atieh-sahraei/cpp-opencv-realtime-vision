@@ -1,6 +1,6 @@
 # C++ OpenCV Real-Time Vision Pipeline
 
-A compact **C++17 + OpenCV** project that demonstrates a complete classical computer-vision pipeline for real-time video analysis.
+A computer-vision pipeline for real-time video analysis.
 
 The project combines: preprocessing, segmentation, geometric measurement, motion estimation, temporal filtering, and runtime profiling.
 
