@@ -1,0 +1,10 @@
+build/
+.vscode/
+.idea/
+*.o
+*.obj
+*.exe
+*.out
+*.avi
+*.mp4
+*.mov
